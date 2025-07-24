@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "example" {
   count         = 3
-  ami           = "ami-0c55b159cbfafe1f0"  # Replace with your region's valid AMI if needed
+  ami           = "ami-0b2f6494ff0b07a0e"  # ✅ Valid AMI for us-west-1
   instance_type = "t2.micro"
 
   tags = {
